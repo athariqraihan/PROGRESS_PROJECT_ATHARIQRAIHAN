@@ -1,0 +1,149 @@
+@font-face{
+    font-family: 'InsaniBurger';
+    src: url(Asset/Font/Insaniburger-0OZ9.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url(../Font/Inter-ExtraBold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../Font/Inter-Bold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(../Font/Inter-SemiBold.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url(../Font/Inter-Medium.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../Font/Inter-Regular.woff2) format(woff2);
+}
+
+.tabel-toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 12px;  
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border: 1px solid #C6C6C6;
+}
+
+.search-box-tabel{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    background-color: #D3D3D3;
+}
+
+.search-icon-tabel{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+}
+
+.search-box-tabel-placeholder{
+    padding: 10px 20px;
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    outline: none;
+    color: black;
+    margin-left: 12px;
+}
+
+.tombol-tambah{
+    display: inline-block;
+    background-color: #D3D3D3;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Inter-Bold';
+    font-size: 16px;
+    color: black;
+}
+
+.tombol-tambah:hover{
+    background-color: #b4b4b4;
+}
+
+.tabel-rak{
+    width: 100%;
+    margin: 0;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.tabel-rak th{
+    text-align: left;
+    padding: 12px 16px;
+    background-color: white;
+    font-family: 'Inter-Bold';
+    font-size: 16px;
+}
+
+.tabel-rak td{
+    padding: 12px 16px;
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+}
+
+.kolom-ganjil{
+    background-color: #E7E7E7;
+}
+
+.kolom-genap{
+    background-color:white ;
+}
+
+.tombol-edit{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.tombol-hapus{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.alert-success {
+    background-color: #178385;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    font-family: 'Inter-Medium';
+}
+
+.pesan-error {
+    color: #a31d1d;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.form-hapus {
+    display: inline;
+}
+
+a.tombol-edit {
+    display: inline-block;
+}

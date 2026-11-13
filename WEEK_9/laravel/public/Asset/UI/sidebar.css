@@ -1,0 +1,53 @@
+.sidebar{
+    width: 241px;
+    height: 100vh;
+    background-color: #105E5F;
+    color: #709F8F;
+    padding: 24px;
+    box-sizing: border-box;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.logo{
+    color: white;
+    font-family: 'InsaniBurger';
+    font-size: 32px;
+    margin-bottom: 59px;
+}
+
+.menu-label{
+  font-family: 'Inter-SemiBold';
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.menu-item{
+    font-family: 'Inter-ExtraBold';
+    font-size: 16px;
+    color: #94D2BD;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 10px;
+}
+
+.menu-item:hover{
+    background-color: #0F4647; 
+}
+
+.menu-item.active{
+    background-color: #0F4647;
+}
+
+.footer-text{
+    font-family: 'Inter-ExtraBold';
+    font-size: 32px;
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
